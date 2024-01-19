@@ -11,9 +11,9 @@ function App() {
         <div className="App">
             {/*<Site/>*/}
             {/*<StudentsAndTopCars/>*/}
-            {/*<ButtonWrap/>*/}
+            <ButtonWrap/>
             {/*<MyUseState/>*/}
-            <FilterWrap/>
+            {/*<FilterWrap/>*/}
         </div>
     );
 }

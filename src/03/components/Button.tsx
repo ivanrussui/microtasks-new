@@ -1,7 +1,8 @@
 import React, {FC} from 'react';
+import {NameType} from '../ButtonWrap';
 
 type ButtonType = {
-    name: string
+    name: NameType
     callBack: () => void
 }
 
