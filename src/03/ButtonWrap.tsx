@@ -1,4 +1,4 @@
-import {Button} from './components/Button';
+import {MyButton} from './components/MyButton';
 import {useState} from 'react';
 
 export type NameType = 'One' | 'Two' | 'Three'
@@ -20,9 +20,9 @@ export const ButtonWrap = () => {
 
     return (
         <>
-            <Button name={'One'} callBack={() => onClickHandler('One')}/>
-            <Button name={'Two'} callBack={() => onClickHandler('Two')}/>
-            <Button name={'Three'} callBack={() => onClickHandler('Three')}/>
+            <MyButton name={'One'} callBack={() => onClickHandler('One')}/>
+            <MyButton name={'Two'} callBack={() => onClickHandler('Two')}/>
+            <MyButton name={'Three'} callBack={() => onClickHandler('Three')}/>
         </>
     );
 };

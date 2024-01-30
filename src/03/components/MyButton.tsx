@@ -6,7 +6,7 @@ type ButtonType = {
     callBack: () => void
 }
 
-export const Button: FC<ButtonType> = ({name, callBack}) => {
+export const MyButton: FC<ButtonType> = ({name, callBack}) => {
     const onClickHandler = () => callBack();
 
     return (
