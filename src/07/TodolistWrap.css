@@ -1,0 +1,47 @@
+.TodolistWrap {
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.TodolistWrap > div {
+    height: fit-content;
+}
+
+.Todolist {
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid indigo;
+}
+
+.Header {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.Header > button {
+    height: fit-content;
+}
+
+.error {
+    border: red 1px solid;
+}
+
+.error-message {
+    color: red;
+}
+
+.filter {
+    background-color: #8d61fb;
+    color: lightsteelblue;
+}
+
+.active-filter {
+    background-color: aquamarine;
+}
+
+.is-done {
+    opacity: 0.5;
+}
